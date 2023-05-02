@@ -12,16 +12,17 @@
 
 ## Difference with the original LoveIt theme
 - Update README
-- Remove Badge (circleCi / Sonar/ Stargazer)
-- Remove Sponsor
-- Update `theme-documentation-basics`, `basic-markdown-syntax`, `build-in-shortcodes` page
+  - Remove Badges (circleCi / Sonar/ Stargazer)
+  - Remove Sponsor
+- Update documentation / exempleSite
 
 ## Todo List
 - check all documentation
 - Remove or translate all chiness documentation (i can't do it)
+- Change image of the README
+- incorpore MR from Love It
 
-
-## (OLD) [Demo Site](https://hugoloveit.com/)
+## (Old : Before fork) [Demo Site](https://hugoloveit.com/)
 
 To see this theme in action, here is a live [demo site](https://hugoloveit.com/) which is rendered with **LoveItAgain** theme.
 
