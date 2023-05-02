@@ -12,7 +12,8 @@
 
 ## Difference with the original LoveIt theme
 - Add Social: Buy Me a Coffee & leetcode : MR https://github.com/dillonzq/LoveIt/pull/821/
-- bump to 2.2.3 of json5 depedency : MR https://github.com/dillonzq/LoveIt/pull/785
+- Bump to 2.2.3 of json5 depedency : MR https://github.com/dillonzq/LoveIt/pull/785
+- Update french translation : MR https://github.com/dillonzq/LoveIt/pull/719/ and https://github.com/dillonzq/LoveIt/pull/809/
 - Update README
   - Remove Badges (circleCi / Sonar/ Stargazer)
   - Remove Sponsor
