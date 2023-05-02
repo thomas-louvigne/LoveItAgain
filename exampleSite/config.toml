@@ -218,11 +218,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # Search config
   # 搜索配置
+  # ! algolia search engin was removed for security reason
   [params.search]
     enable = true
-    # type of search engine ["lunr", "algolia"]
-    # 搜索引擎的类型 ["lunr", "algolia"]
-    type = "algolia"
+    # type of search engine ["lunr", ]
+    # 搜索引擎的类型 ["lunr"]
+    type = ""
     # max index length of the chunked content
     # 文章内容最长索引长度
     contentLength = 4000
@@ -241,10 +242,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # whether to use the absolute URL based on the baseURL in search index
     # 是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
-    [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
 
   # Home page config
   # 主页信息设置
@@ -849,17 +846,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [languages.en.params]
       [languages.en.params.search]
         enable = true
-        type = "algolia"
+        type = "lunr"
         contentLength = 4000
         placeholder = ""
         maxResultLength = 10
         snippetLength = 30
         highlightTag = "em"
         absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       [languages.en.params.home]
         rss = 10
         [languages.en.params.home.profile]
@@ -942,17 +935,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]
         enable = true
-        type = "algolia"
+        type = "lunr"
         contentLength = 4000
         placeholder = ""
         maxResultLength = 10
         snippetLength = 50
         highlightTag = "em"
         absoluteURL = false
-        [languages.zh-cn.params.search.algolia]
-          index = "index.zh-cn"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       [languages.zh-cn.params.home]
         rss = 10
         [languages.zh-cn.params.home.profile]

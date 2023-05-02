@@ -4,7 +4,6 @@
   "description": "LoveItAgain theme source file",
   "private": true,
   "devDependencies": {
-    "@algolia/cli": "^4.0.8",
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.21.5",
     "@babel/preset-env": "^7.21.5",

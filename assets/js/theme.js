@@ -247,68 +247,31 @@ class Theme {
                 finish([]);
               });
             } else finish(search());
-          } else if (searchConfig.type === 'algolia') {
-            this._algoliaIndex = this._algoliaIndex || algoliasearch(searchConfig.algoliaAppID, searchConfig.algoliaSearchKey).initIndex(searchConfig.algoliaIndex);
-            this._algoliaIndex.search(query, {
-              offset: 0,
-              length: maxResultLength * 8,
-              attributesToHighlight: ['title'],
-              attributesToSnippet: ["content:".concat(snippetLength)],
-              highlightPreTag: "<".concat(highlightTag, ">"),
-              highlightPostTag: "</".concat(highlightTag, ">")
-            }).then(_ref3 => {
-              let {
-                hits
-              } = _ref3;
-              const results = {};
-              hits.forEach(_ref4 => {
-                let {
-                  uri,
-                  date,
-                  _highlightResult: {
-                    title
-                  },
-                  _snippetResult: {
-                    content
-                  }
-                } = _ref4;
-                if (results[uri] && results[uri].context.length > content.value) return;
-                results[uri] = {
-                  uri: uri,
-                  title: title.value,
-                  date: date,
-                  context: content.value
-                };
-              });
-              finish(Object.values(results).slice(0, maxResultLength));
-            }).catch(err => {
-              console.error(err);
-              finish([]);
-            });
           }
         },
         templates: {
-          suggestion: _ref5 => {
+          suggestion: _ref3 => {
             let {
               title,
               date,
               context
-            } = _ref5;
+            } = _ref3;
             return "<div><span class=\"suggestion-title\">".concat(title, "</span><span class=\"suggestion-date\">").concat(date, "</span></div><div class=\"suggestion-context\">").concat(context, "</div>");
           },
-          empty: _ref6 => {
+          empty: _ref4 => {
             let {
               query
-            } = _ref6;
+            } = _ref4;
             return "<div class=\"search-empty\">".concat(searchConfig.noResultsFound, ": <span class=\"search-query\">\"").concat(query, "\"</span></div>");
           },
-          footer: _ref7 => {
-            let {} = _ref7;
+          footer: _ref5 => {
+            let {} = _ref5;
             const {
               searchType,
               icon,
               href
             } = searchConfig.type === 'algolia' ? {
+              //TODO Remove algolia depedency
               searchType: 'algolia',
               icon: '<i class="fab fa-algolia fa-fw" aria-hidden="true"></i>',
               href: 'https://www.algolia.com/'

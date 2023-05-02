@@ -295,10 +295,6 @@ header {
 
       .search {
         flex-grow: 10;
-
-        .algolia-autocomplete, input {
-          width: 100%;
-        }
       }
 
       .search-button {

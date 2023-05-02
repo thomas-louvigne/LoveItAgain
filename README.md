@@ -11,6 +11,7 @@
 ![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
 
 ## Difference with the original LoveIt theme
+- Remove Algolia search Enging beacause of security reason : https://github.com/dillonzq/LoveIt/issues/818
 - Add puppet language : MR https://github.com/dillonzq/LoveIt/pull/800
 - Add google Ads : MR https://github.com/dillonzq/LoveIt/pull/816
 - Update npm package: husky, core-js, browserify & babel
@@ -31,6 +32,7 @@
 - Remove or translate all chiness documentation (i can't do it)
 - Change image of the README
 - Incorpore MR from Love It
+- Finish removing all trace of algolia
 
 ## [Old : Before fork] [Demo Site](https://hugoloveit.com/)
 
@@ -48,7 +50,7 @@ Compared to the original LeaveIt theme and the KeepIt theme, the LoveItAgain the
 * Some beautiful **CSS animations**
 * Easy-to-use and self-expanding **table of contents**
 * More **social links**, **share sites** and **comment system**
-* **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
+* **Search** supported by [Lunr.js](https://lunrjs.com/) (Algolia is no more suported for security reason)
 * **Copy code** to clipboard with one click
 * Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
 * Extended Markdown syntax for **ruby annotation**
@@ -113,7 +115,7 @@ I hope you will LoveItAgain ❤️!
 
 ### Extended Features
 
-* **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
+* **Search** supported by [Lunr.js](https://lunrjs.com/)
 * **Twemoji** supported
 * Automatically **highlighting** code
 * **Copy code** to clipboard with one click
@@ -192,9 +194,7 @@ Thanks to the authors of following resources included in the theme:
 * [Font Awesome](https://fontawesome.com/)
 * [Simple Icons](https://github.com/simple-icons/simple-icons)
 * [Animate.css](https://daneden.github.io/animate.css/)
-* [autocomplete](https://github.com/algolia/autocomplete)
 * [Lunr.js](https://lunrjs.com/)
-* [algoliasearch](https://github.com/algolia/algoliasearch-client-javascript)
 * [lazysizes](https://github.com/aFarkas/lazysizes)
 * [object-fit-images](https://github.com/fregante/object-fit-images)
 * [Twemoji](https://github.com/twitter/twemoji)

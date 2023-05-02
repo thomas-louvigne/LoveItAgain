@@ -66,7 +66,7 @@ math:
 
 ### Extended Features
 
-* :(fas fa-search fa-fw): **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
+* :(fas fa-search fa-fw): **Search** supported by [Lunr.js](https://lunrjs.com/)
 * :(far fa-grin-tongue-wink fa-fw): **Twemoji** supported
 * :(fas fa-code fa-fw): Automatically **highlighting** code
 * :(far fa-copy fa-fw): **Copy code** to clipboard with one click
@@ -102,9 +102,7 @@ Thanks to the authors of following resources included in the theme:
 * [Font Awesome](https://fontawesome.com/)
 * [Simple Icons](https://github.com/simple-icons/simple-icons)
 * [Animate.css](https://daneden.github.io/animate.css/)
-* [autocomplete](https://github.com/algolia/autocomplete)
 * [Lunr.js](https://lunrjs.com/)
-* [algoliasearch](https://github.com/algolia/algoliasearch-client-javascript)
 * [lazysizes](https://github.com/aFarkas/lazysizes)
 * [object-fit-images](https://github.com/fregante/object-fit-images)
 * [Twemoji](https://github.com/twitter/twemoji)
