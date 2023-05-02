@@ -1,10 +1,10 @@
-name = "LoveIt"
-license = "MIT"
-licenselink = "https://github.com/dillonzq/LoveIt/blob/master/LICENSE"
-description = "A Clean, Elegant but Advanced Hugo Theme for Hugo."
+name = "LoveItAgain"
+license = "GPL V3"
+licenselink = "https://github.com/thomas-louvigne/LoveItAgain/blob/main/LICENSE"
+description = "A Clean, Elegant but Advanced Hugo Theme for Hugo. (Fork of LoveIt)"
 
 homepage = "https://hugoloveit.com"
-demosite = "https://hugoloveit.com"
+demosite = "https://thomas-louvigne.github.io/"
 
 tags = [
   "blog",
@@ -26,8 +26,8 @@ features = [
 min_version = "0.62.0"
 
 [author]
-  name = "Dillon"
-  homepage = "https://dillonzq.com/"
+  name = "Thomas Louvgine"
+  homepage = "https://thomas-louvigne.github.io/"
 
 [original]
   name = "Fastbyte01"

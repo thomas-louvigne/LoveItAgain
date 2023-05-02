@@ -1,7 +1,7 @@
 {
-  "name": "loveit-src",
+  "name": "loveitagain-src",
   "version": "0.2.0",
-  "description": "LoveIt theme source file",
+  "description": "LoveItAgain theme source file",
   "private": true,
   "devDependencies": {
     "@algolia/cli": "^4.0.8",
@@ -22,12 +22,11 @@
     "start": "npm run babel && hugo server --source=exampleSite --themesDir ../.. -D --disableFastRender",
     "start-production": "npm run babel && hugo server --source=exampleSite --themesDir ../.. -D --disableFastRender -e production",
     "check": "htmlproofer exampleSite/public --check-html --allow-hash-href --empty-alt-ignore --disable-external",
-    "copy": "rm -rf resources && cp -rf exampleSite/resources resources",
-    "prepare": "husky install"
+    "copy": "rm -rf resources && cp -rf exampleSite/resources resources"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dillonzq/LoveIt.git"
+    "url": "git+https://github.com/thomas-louvigne/LoveItAgain.git"
   },
   "keywords": [
     "hugo",
@@ -36,7 +35,7 @@
   "author": "Dillon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dillonzq/LoveIt/issues"
+    "url": "https://github.com/thomas-louvigne/LoveItAgain/issues"
   },
-  "homepage": "https://github.com/dillonzq/LoveIt#readme"
+  "homepage": "https://github.com/thomas-louvigne/LoveItAgain#readme"
 }

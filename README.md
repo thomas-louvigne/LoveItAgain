@@ -1,19 +1,14 @@
-# LoveItAgain Theme | Hugo
+# LoveItAgain Theme (LoveIt Theme Forked) | Hugo
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/thomas-louvigne/LoveItAgain?style=flat-square)](https://github.com/thomas-louvigne/LoveItAgain/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
 [![License](https://img.shields.io/github/license/thomas-louvigne/LoveItAgain?style=flat-square)](https://github.com/thomas-louvigne/LoveItAgain/blob/master/LICENSE)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=thomas-louvigne_LoveItAgain&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=thomas-louvigne_LoveItAgain)
-[![CircleCI](https://circleci.com/gh/thomas-louvigne/LoveItAgain/tree/master.svg?style=svg)](https://circleci.com/gh/thomas-louvigne/LoveItAgain/tree/master)
 
-> **LoveItAgain** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
-> LoveItAgain is a fork of LoveIt, an hugo theme from [dillonzq](https://github.com/dillonzq/)
-> It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+- **LoveItAgain** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
+- LoveItAgain is a fork of LoveIt, an hugo theme from [dillonzq](https://github.com/dillonzq/)
+- It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
-Since the three themes have a similar look, if you have questions about their differences,
-read [Why choose LoveItAgain](#why-choose-loveit) so that you can choose the one that works best for you.
-
-![Hugo Theme LoveItAgain](https://github.com/thomas-louvigne/LoveItAgain/raw/master/images/Apple-Devices-Preview.png)
+![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
 
 ## (OLD) [Demo Site](https://hugoloveit.com/)
 
