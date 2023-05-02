@@ -11,22 +11,24 @@
 ![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
 
 ## Difference with the original LoveIt theme
+- Update npm package: husky, core-js, browserify & babel
 - Add Ukranian translation : MR https://github.com/dillonzq/LoveIt/
 - Update french translation : MR https://github.com/dillonzq/LoveIt/pull/719/ and https://github.com/dillonzq/LoveIt/pull/809/
 - Add Social: Buy Me a Coffee & leetcode : MR https://github.com/dillonzq/LoveIt/pull/821/
 - Bump to 2.2.3 of json5 depedency : MR https://github.com/dillonzq/LoveIt/pull/785
-- Update README
-  - Remove Badges (circleCi / Sonar/ Stargazer)
+- Update README :
+  - Remove Badges (CircleCi / Sonar / Stargazer)
   - Remove Sponsor
+  - Add this section to evalute the change
 - Update documentation / exempleSite
 
 ## Todo List
-- check all documentation
+- Check all documentation
 - Remove or translate all chiness documentation (i can't do it)
 - Change image of the README
-- incorpore MR from Love It
+- Incorpore MR from Love It
 
-## (Old : Before fork) [Demo Site](https://hugoloveit.com/)
+## [Old : Before fork] [Demo Site](https://hugoloveit.com/)
 
 To see this theme in action, here is a live [demo site](https://hugoloveit.com/) which is rendered with **LoveItAgain** theme.
 

@@ -5,13 +5,13 @@
   "private": true,
   "devDependencies": {
     "@algolia/cli": "^4.0.8",
-    "@babel/cli": "^7.17.10",
-    "@babel/core": "^7.17.10",
-    "@babel/preset-env": "^7.17.10",
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
     "babelify": "^10.0.0",
-    "browserify": "^16.5.2",
-    "core-js": "^3.22.4",
-    "husky": "^7.0.0",
+    "browserify": "^17.0.0",
+    "core-js": "^3.30.0",
+    "husky": "^8.0.3",
     "segmentit": "^2.0.3"
   },
   "scripts": {
@@ -37,8 +37,5 @@
   "bugs": {
     "url": "https://github.com/thomas-louvigne/LoveItAgain/issues"
   },
-  "homepage": "https://github.com/thomas-louvigne/LoveItAgain#readme",
-  "dependencies": {
-    "json5": "^2.2.3"
-  }
+  "homepage": "https://github.com/thomas-louvigne/LoveItAgain#readme"
 }
