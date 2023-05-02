@@ -2,11 +2,10 @@
 weight: 5
 title: "Emoji Support"
 date: 2019-10-01T17:55:28+08:00
-lastmod: 2019-10-01T17:55:28+08:00
+lastmod: 2023-05-02T17:55:28+08:00
 draft: false
-author: "Dillon"
-authorLink: "https://dillonzq.com"
-description: "Guide to emoji usage in Hugo and LoveIt."
+author: "Thomas Louvigne"
+description: "Guide to emoji usage in Hugo and LoveItAgain."
 images: []
 resources:
 - name: "featured-image"

@@ -1,6 +1,6 @@
 {
   "name": "loveitagain-src",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "LoveItAgain theme source file",
   "private": true,
   "devDependencies": {
@@ -32,8 +32,8 @@
     "hugo",
     "theme"
   ],
-  "author": "Dillon",
-  "license": "MIT",
+  "author": "Thomas Louvigne",
+  "license": "GPL v3",
   "bugs": {
     "url": "https://github.com/thomas-louvigne/LoveItAgain/issues"
   },

@@ -2,11 +2,11 @@
 weight: 1
 title: "Theme Documentation - Basics"
 date: 2020-03-06T21:29:01+08:00
-lastmod: 2020-03-06T21:29:01+08:00
+lastmod: 2023-05-02T21:29:01+08:00
 draft: false
-author: "Dillon"
-authorLink: "https://dillonzq.com"
-description: "Discover what the Hugo - LoveIt theme is all about and the core-concepts behind it."
+author: "Thomas Louvigne"
+authorLink: "https://thomas-louvigne.github.io/""
+description: "Discover what the Hugo - LoveItAgain theme is all about and the core-concepts behind it."
 images: []
 resources:
 - name: "featured-image"
@@ -21,7 +21,7 @@ toc:
   auto: false
 ---
 
-Discover what the Hugo - **LoveIt** theme is all about and the core-concepts behind it.
+Discover what the Hugo - **LoveItAgain** theme is all about and the core-concepts behind it.
 
 <!--more-->
 
@@ -54,32 +54,32 @@ cd my_website
 
 ### 2.2 Install the Theme
 
-The **LoveIt** theme’s repository is: [https://github.com/dillonzq/LoveIt](https://github.com/dillonzq/LoveIt).
+The **LoveItAgain** theme’s repository is: [https://github.com/thomas-louvigne/LoveItAgain](https://github.com/thomas-louvigne/LoveItAgain).
 
-You can download the [latest release :(far fa-file-archive fa-fw): .zip file](https://github.com/dillonzq/LoveIt/releases) of the theme and extract it in the `themes` directory.
+You can download the [latest release :(far fa-file-archive fa-fw): .zip file](https://github.com/thomas-louvigne/LoveItAgain/releases) of the theme and extract it in the `themes` directory.
 
 Alternatively, clone this repository to the `themes` directory:
 
 ```bash
-git clone https://github.com/dillonzq/LoveIt.git themes/LoveIt
+git clone https://github.com/thomas-louvigne/LoveItAgain.git themes/LoveItAgain
 ```
 
 Or, create an empty git repository and make this repository a submodule of your site directory:
 
 ```bash
 git init
-git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+git submodule add https://github.com/thomas-louvigne/LoveItAgain.git themes/LoveItAgain
 ```
 
 ### 2.3 Basic Configuration {#basic-configuration}
 
-The following is a basic configuration for the LoveIt theme:
+The following is a basic configuration for the LoveItAgain theme:
 
 ```toml
 baseURL = "http://example.org/"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "LoveIt"
+theme = "LoveItAgain"
 
 # website title
 title = "My New Hugo Site"
@@ -129,7 +129,7 @@ languageName = "English"
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
-    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    # false is a necessary configuration (https://github.com/thomas-louvigne/LoveItAgain/issues/158)
     noClasses = false
 ```
 
@@ -195,7 +195,7 @@ Alternatively, you can use [AWS Amplify](https://gohugo.io/hosting-and-deploymen
 
 ### 3.1 Site Configuration {#site-configuration}
 
-In addition to [Hugo global configuration](https://gohugo.io/overview/configuration/) and [menu configuration](#basic-configuration), **LoveIt** lets you define the following parameters in your site configuration (here is a `config.toml`, whose values are default).
+In addition to [Hugo global configuration](https://gohugo.io/overview/configuration/) and [menu configuration](#basic-configuration), **LoveItAgain** lets you define the following parameters in your site configuration (here is a `config.toml`, whose values are default).
 
 Please open the code block below to view the complete sample configuration :(far fa-hand-point-down fa-fw)::
 
@@ -203,7 +203,7 @@ Please open the code block below to view the complete sample configuration :(far
 baseURL = "http://example.org/"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "LoveIt"
+theme = "LoveItAgain"
 
 # website title
 title = "My New Hugo Site"
@@ -609,7 +609,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         serverURLs = ""
         # {{< version 0.2.6 >}} emoji data file name, default is "google.yml"
         # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]
-        # located in "themes/LoveIt/assets/lib/valine/emoji/" directory
+        # located in "themes/LoveItAgain/assets/lib/valine/emoji/" directory
         # you can store your own data files in the same path under your project:
         # "assets/lib/valine/emoji/"
         emoji = ""
@@ -740,7 +740,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.cdn]
     # CDN data file name, disabled by default
     # ["jsdelivr.yml"]
-    # located in "themes/LoveIt/assets/data/cdn/" directory
+    # located in "themes/LoveItAgain/assets/data/cdn/" directory
     # you can store your own data files in the same path under your project:
     # "assets/data/cdn/"
     data = ""
@@ -761,7 +761,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     lineNos = true
     lineNumbersInTable = true
     # false is a necessary configuration
-    # ({{< link "https://github.com/dillonzq/LoveIt/issues/158" >}})
+    # ({{< link "https://github.com/thomas-louvigne/LoveItAgain/issues/158" >}})
     noClasses = false
   # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]
@@ -846,7 +846,7 @@ You could enable these features with `hugo serve -e production`.
   data = ""
 ````
 
-The default CDN data file is located in `themes/LoveIt/assets/data/cdn/` directory.
+The default CDN data file is located in `themes/LoveItAgain/assets/data/cdn/` directory.
 You can store your own data file in the same path under your project: `assets/data/cdn/`.
 {{< /admonition >}}
 
@@ -877,7 +877,7 @@ Or You can set more options through a dict:
     title = "Mastodon"
 ```
 
-The default data of all supported social links is located in `themes/LoveIt/assets/data/social.yaml`,
+The default data of all supported social links is located in `themes/LoveItAgain/assets/data/social.yaml`,
 which is you can refer to.
 {{< /admonition >}}
 
@@ -906,11 +906,11 @@ Customize `browserconfig.xml` and `site.webmanifest` to set theme-color and back
 Hugo **extended** version is necessary for the style customization.
 {{< /admonition >}}
 
-**LoveIt** theme has been built to be as configurable as possible by defining custom `.scss` style files.
+**LoveItAgain** theme has been built to be as configurable as possible by defining custom `.scss` style files.
 
 The directory including the custom `.scss` style files is `assets/css` relative to **your project root directory**.
 
-In `assets/css/_override.scss`, you can override the variables in `themes/LoveIt/assets/css/_variables.scss` to customize the style.
+In `assets/css/_override.scss`, you can override the variables in `themes/LoveItAgain/assets/css/_variables.scss` to customize the style.
 
 Here is a example:
 
@@ -923,7 +923,7 @@ In `assets/css/_custom.scss`, you can add some css style code to customize the s
 
 ## 4 Multilingual and i18n
 
-**LoveIt** theme is fully compatible with Hugo multilingual mode, which provides in-browser language switching.
+**LoveItAgain** theme is fully compatible with Hugo multilingual mode, which provides in-browser language switching.
 
 ![Language Switch](language-switch.gif "Language Switch")
 
@@ -1079,15 +1079,15 @@ Use [Front Matter parameter](https://gohugo.io/content-management/multilingual#t
 
 Translations strings are used for common default values used in the theme. Translations are available in [some languages](#language-compatibility), but you may use another language or want to override default values.
 
-To override these values, create a new file in your local i18n folder `i18n/<languageCode>.toml` and inspire yourself from `themes/LoveIt/i18n/en.toml`.
+To override these values, create a new file in your local i18n folder `i18n/<languageCode>.toml` and inspire yourself from `themes/LoveItAgain/i18n/en.toml`.
 
-By the way, as these translations could be used by other people, please take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/dillonzq/LoveIt/pulls) to the theme!
+By the way, as these translations could be used by other people, please take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/thomas-louvigne/LoveItAgain/pulls) to the theme!
 
 ## 5 Search
 
 {{< version 0.2.0 >}}
 
-Based on [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/), searching is supported in **LoveIt** theme.
+Based on [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/), searching is supported in **LoveItAgain** theme.
 
 ### 5.1 Output Configuration
 

@@ -5,10 +5,21 @@
 [![License](https://img.shields.io/github/license/thomas-louvigne/LoveItAgain?style=flat-square)](https://github.com/thomas-louvigne/LoveItAgain/blob/master/LICENSE)
 
 - **LoveItAgain** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
-- LoveItAgain is a fork of LoveIt, an hugo theme from [dillonzq](https://github.com/dillonzq/)
+- **LoveItAgain** is a fork of **LoveIt**, an hugo theme from [dillonzq](https://github.com/dillonzq/)
 - It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
 ![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
+
+## Difference with the original LoveIt theme
+- Update README
+- Remove Badge (circleCi / Sonar/ Stargazer)
+- Remove Sponsor
+- Update `theme-documentation-basics`, `basic-markdown-syntax`, `build-in-shortcodes` page
+
+## Todo List
+- check all documentation
+- Remove or translate all chiness documentation (i can't do it)
+
 
 ## (OLD) [Demo Site](https://hugoloveit.com/)
 

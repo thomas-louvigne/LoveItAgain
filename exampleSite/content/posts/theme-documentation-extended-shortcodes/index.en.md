@@ -2,11 +2,10 @@
 weight: 4
 title: "Theme Documentation - Extended Shortcodes"
 date: 2020-03-03T16:29:41+08:00
-lastmod: 2020-06-12T10:10:13+03:00
+lastmod: 2023-05-02T10:10:13+03:00
 draft: false
-author: "Dillon"
-authorLink: "https://dillonzq.com"
-description: "LoveIt theme provides multiple shortcodes on top of built-in ones in Hugo."
+author: "Thomas Louvigne"
+description: "LoveItAgain theme provides multiple shortcodes on top of built-in ones in Hugo."
 images: []
 resources:
 - name: "featured-image"
@@ -23,7 +22,7 @@ math:
   enable: true
 ---
 
-**LoveIt** theme provides multiple shortcodes on top of built-in ones in Hugo.
+**LoveItAgain** theme provides multiple shortcodes on top of built-in ones in Hugo.
 
 <!--more-->
 
@@ -333,14 +332,14 @@ Example `script` input:
 
 ```markdown
 {{</* script */>}}
-console.log('Hello LoveIt!');
+console.log('Hello LoveItAgain!');
 {{</* /script */>}}
 ```
 
 You can see the output in the console of the developer tool.
 
 {{< script >}}
-console.log('Hello LoveIt!');
+console.log('Hello LoveItAgain!');
 {{< /script >}}
 
 ## 12 raw
@@ -375,10 +374,10 @@ Block Formula:
 {{< /raw >}}
 
 {{< script >}}
-console.log('Hello LoveIt!');
+console.log('Hello LoveItAgain!');
 {{< /script >}}
 
-This renders as {{< person "https://dillonzq.com/" Dillon "author of the LoveIt theme" >}}.
+This renders as {{< person "https://dillonzq.com/" Dillon "author of the LoveItAgain theme" >}}.
 Raw content using Markdown syntax: {{< raw >}}**Hello**{{< /raw >}}
 
 ## 13 person
@@ -418,7 +417,7 @@ This renders as {{< person url="https://evgenykuznetsov.org" name="Evgeny Kuznet
 Without an explicitly given picture, a generic icon is used. This input:
 
 ```markdown
-{{</* person "https://dillonzq.com/" Dillon "author of the LoveIt theme" */>}}
+{{</* person "https://dillonzq.com/" Dillon "author of the LoveItAgain theme" */>}}
 ```
 
 This renders as {{< person "https://dillonzq.com/" Dillon "author of the LoveIt theme" >}}.

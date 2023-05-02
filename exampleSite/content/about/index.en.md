@@ -1,8 +1,8 @@
 ---
-title: "About LoveIt"
-date: 2019-08-02T11:04:49+08:00
+title: "About LoveItAgain"
+date: 2023-05-02T11:04:49+08:00
 draft: false
-description: "About LoveIt"
+description: "About LoveItAgain"
 images: ["/Apple-Devices-Preview.png"]
 
 lightgallery: true
@@ -12,16 +12,16 @@ math:
 ---
 
 {{< style "img { height: 1.25rem; }" >}}
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/thomas-louvigne/LoveItAgain?style=flat-square)](https://github.com/thomas-louvigne/LoveItAgain/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt)
-[![GitHub forks](https://img.shields.io/github/forks/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt/fork)
+[![License](https://img.shields.io/github/license/thomas-louvigne/LoveItAgain?style=flat-square)](https://github.com/thomas-louvigne/LoveItAgain/blob/master/LICENSE)
+
 {{< /style >}}
 
-> [:(far fa-kiss-wink-heart fa-fw): LoveIt](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by {{< person "https://dillonzq.com/" Dillon "author of the LoveIt theme" "/Dillon.png" >}}.
->
-> It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+
+- **LoveItAgain** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
+- **LoveItAgain** is a fork of **LoveIt**, an hugo theme from [dillonzq](https://github.com/dillonzq/)
+- It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
 ![Hugo Theme LoveIt](/images/Apple-Devices-Preview.png "Hugo Theme LoveIt")
 
@@ -92,7 +92,7 @@ math:
 
 LoveIt is licensed under the **MIT** license.
 
-Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
+Check the [LICENSE file](https://github.com/thomas-louvigne/LoveItAgain/blob/master/LICENSE) for details.
 
 ## Special Thanks
 
