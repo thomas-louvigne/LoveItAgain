@@ -11,9 +11,10 @@
 ![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
 
 ## Difference with the original LoveIt theme
+- Add Ukranian translation : MR https://github.com/dillonzq/LoveIt/
+- Update french translation : MR https://github.com/dillonzq/LoveIt/pull/719/ and https://github.com/dillonzq/LoveIt/pull/809/
 - Add Social: Buy Me a Coffee & leetcode : MR https://github.com/dillonzq/LoveIt/pull/821/
 - Bump to 2.2.3 of json5 depedency : MR https://github.com/dillonzq/LoveIt/pull/785
-- Update french translation : MR https://github.com/dillonzq/LoveIt/pull/719/ and https://github.com/dillonzq/LoveIt/pull/809/
 - Update README
   - Remove Badges (circleCi / Sonar/ Stargazer)
   - Remove Sponsor
@@ -161,6 +162,8 @@ LoveItAgain supports the following languages:
 * Turkish
 * Korean
 * Hindi
+* Ukrainian
+
 * [Contribute with a new language](https://github.com/thomas-louvigne/LoveItAgain/pulls)
 
 [Languages Compatibility](https://hugoloveit.com/theme-documentation-basics/#language-compatibility)
