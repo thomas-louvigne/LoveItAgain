@@ -11,7 +11,8 @@
 ![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
 
 ## Difference with the original LoveIt theme
-- Remove Algolia search Enging beacause of security reason : https://github.com/dillonzq/LoveIt/issues/818
+- Extra Padding for social links in the footer : MR https://github.com/dillonzq/LoveIt/pull/798
+- Remove Algolia search Enging beacause of security reason : MR https://github.com/dillonzq/LoveIt/issues/818
 - Add puppet language : MR https://github.com/dillonzq/LoveIt/pull/800
 - Add google Ads : MR https://github.com/dillonzq/LoveIt/pull/816
 - Update npm package: husky, core-js, browserify & babel
@@ -27,12 +28,12 @@
   - Add this section to evalute the change
 - Update documentation / exempleSite
 
-## Todo List
-- Check all documentation
+## TODO List :
+- Check all the documentation
 - Remove or translate all chiness documentation (i can't do it)
 - Change image of the README
-- Incorpore MR from Love It
-- Finish removing all trace of algolia
+- Finish removing all line of code `algolia`
+- Test `lunr` search (don't works for me but neither with `LoveIt`)
 
 ## [Old : Before fork] [Demo Site](https://hugoloveit.com/)
 
