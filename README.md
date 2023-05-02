@@ -11,6 +11,7 @@
 ![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
 
 ## Difference with the original LoveIt theme
+- Add Social: Buy Me a Coffee & leetcode MR (https://github.com/dillonzq/LoveIt/pull/821/)
 - Update README
   - Remove Badges (circleCi / Sonar/ Stargazer)
   - Remove Sponsor
