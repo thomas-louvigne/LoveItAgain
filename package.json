@@ -37,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/thomas-louvigne/LoveItAgain/issues"
   },
-  "homepage": "https://github.com/thomas-louvigne/LoveItAgain#readme"
+  "homepage": "https://github.com/thomas-louvigne/LoveItAgain#readme",
+  "dependencies": {
+    "json5": "^2.2.3"
+  }
 }
