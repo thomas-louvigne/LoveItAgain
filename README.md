@@ -11,13 +11,13 @@
 ![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
 
 ## Difference with the original LoveIt theme
-_ Add puppet language : MR https://github.com/dillonzq/LoveIt/pull/800
+- Add puppet language : MR https://github.com/dillonzq/LoveIt/pull/800
 - Add google Ads : MR https://github.com/dillonzq/LoveIt/pull/816
 - Update npm package: husky, core-js, browserify & babel
 - Add Ukranian translation : MR https://github.com/dillonzq/LoveIt/pull/805
 - Update French translation : MR https://github.com/dillonzq/LoveIt/pull/719 and https://github.com/dillonzq/LoveIt/pull/809
 - Add Social :
-  - Buy Me a Coffee & leetcode : MR https://github.com/dillonzq/LoveIt/pull/821
+  - Buy Me a Coffee & Leetcode : MR https://github.com/dillonzq/LoveIt/pull/821
   - Tiktok : MR https://github.com/dillonzq/LoveIt/pull/778/
 - Bump to 2.2.3 of json5 depedency : MR https://github.com/dillonzq/LoveIt/pull/785
 - Update README :
