@@ -585,6 +585,14 @@ leetcode:
   Icon:
     Simpleicons: leetcode
 
+# 075 TikTok
+tiktok:
+  Weight: 75
+  Url: https://www.tiktok.com/
+  Title: TikTok
+  Icon:
+    Simpleicons: tiktok
+
 # Phone
 phone:
   Weight: 98
