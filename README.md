@@ -11,10 +11,11 @@
 ![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
 
 ## Difference with the original LoveIt theme
+- Add google Ads : MR https://github.com/dillonzq/LoveIt/pull/816
 - Update npm package: husky, core-js, browserify & babel
 - Add Ukranian translation : MR https://github.com/dillonzq/LoveIt/
-- Update french translation : MR https://github.com/dillonzq/LoveIt/pull/719/ and https://github.com/dillonzq/LoveIt/pull/809/
-- Add Social: Buy Me a Coffee & leetcode : MR https://github.com/dillonzq/LoveIt/pull/821/
+- Update French translation : MR https://github.com/dillonzq/LoveIt/pull/719/ and https://github.com/dillonzq/LoveIt/pull/809/
+- Add Social : Buy Me a Coffee & leetcode : MR https://github.com/dillonzq/LoveIt/pull/821/
 - Bump to 2.2.3 of json5 depedency : MR https://github.com/dillonzq/LoveIt/pull/785
 - Update README :
   - Remove Badges (CircleCi / Sonar / Stargazer)
@@ -96,7 +97,7 @@ I hope you will LoveItAgain ❤️!
 
 * **Gravatar** supported by [Gravatar](https://gravatar.com)
 * Local **Avatar** supported
-* Up to **73** social links supported
+* Up to **74** social links supported
 * Up to **24** share sites supported
 * **Disqus** comment system supported by [Disqus](https://disqus.com)
 * **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
@@ -129,6 +130,7 @@ I hope you will LoveItAgain ❤️!
 * **Animated typing** supported by [TypeIt](https://typeitjs.com/)
 * **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
 * **Person** shortcode
+* **Google Ads** shortcode
 * ...
 
 ## [Documentation](https://hugoloveit.com/categories/documentation/)

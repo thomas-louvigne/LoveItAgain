@@ -584,6 +584,11 @@
     # Yandex Metrica
     [params.analytics.yandexMetrica]
       id = ""
+    # Google Ads config
+    [params.ads]
+        enable = false
+        [params.ads.google]
+        id = ""
 
   # Cookie consent config
   # Cookie 许可配置
