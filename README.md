@@ -21,6 +21,7 @@
 - Add Social :
   - Buy Me a Coffee & Leetcode : MR https://github.com/dillonzq/LoveIt/pull/821
   - Tiktok : MR https://github.com/dillonzq/LoveIt/pull/778/
+  - Add ko-fi : (Internal MR)
 - Bump to 2.2.3 of json5 depedency : MR https://github.com/dillonzq/LoveIt/pull/785
 - Update README :
   - Remove Badges (CircleCi / Sonar / Stargazer)
@@ -103,7 +104,7 @@ I hope you will LoveItAgain ❤️!
 
 * **Gravatar** supported by [Gravatar](https://gravatar.com)
 * Local **Avatar** supported
-* Up to **74** social links supported
+* Up to **76** social links supported
 * Up to **24** share sites supported
 * **Disqus** comment system supported by [Disqus](https://disqus.com)
 * **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
