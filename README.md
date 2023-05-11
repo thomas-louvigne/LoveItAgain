@@ -27,7 +27,8 @@
   - Remove Badges (CircleCi / Sonar / Stargazer)
   - Remove Sponsor
   - Add this section to evalute the change
-- Update documentation / exempleSite
+- Updated documentation / exempleSite
+- ⚠ Chiness documentation is outdated
 
 ## TODO List :
 - Check all the documentation
@@ -36,14 +37,15 @@
 - Finish removing all line of code `algolia`
 - Test `lunr` search (don't works for me but neither with `LoveIt`)
 
-## [Old : Before fork] [Demo Site](https://hugoloveit.com/)
+## [OLD : Before fork] [Demo Site](https://hugoloveit.com/)
 
 To see this theme in action, here is a live [demo site](https://hugoloveit.com/) which is rendered with **LoveItAgain** theme.
 
 ## Why choose LoveItAgain ?
 
-Compared to the original LeaveIt theme and the KeepIt theme, the LoveItAgain theme has the following modifications.
+Compared to the original LeaveIt and Lovite theme and the KeepIt theme, the LoveItAgain theme has the following modifications.
 
+* Updated Theme : MR are accepted
 * Custom **Header**
 * Custom **CSS Style**
 * A new **home page**, compatible with the latest version of Hugo
